@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- language -->
+    <meta charset="UTF-8">
+    <!-- responnsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/logo_google_icon_143197.webp" rel="icon">
+    <title>Document</title>
+</head>
+<body>
+    <form action="contact.html" autocomplete="off" method="post">
+        <label for="firstName" >First Name</label> <br>
+        <input name="firstName" minlength="3"  id="firstName"  maxlength="10" required> <br>
+        <label>Email</label> <br>
+        <input type="email"  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" value="info@abcCompany.com" name="userEmail" >  <br>
+        <label>
+            shipping area
+        </label> <br>
+        <input type="text" value="Alex" name="shippingArea" readonly>  <br>
+        <label>
+            address
+        </label> <br>
+        <input type="text" placeholder="enter your address"   name="address">  <br>
+
+        <label>Date</label> <br>
+        <input type="date" name="date">
+        <input type="month" name="month">
+        <input type="datetime-local">
+
+        <label>Age</label>
+        <input type="number" id="userAge">
+        <br>
+
+        <label>Position Availaible</label>
+        <input type="radio" name="position" value="junior"><span>Junior</span> 
+        <input type="radio" name="position" value="senior"><label>senior</label> 
+        <label>
+            <input type="radio" name="position" value="mid" > 
+            Mid-level
+        </label>
+        <br>
+
+        <label>programming language</label>
+        <input type="checkbox" name="lang1" value="js"> Js
+        <input type="checkbox" name="lang2" value="node"> node
+        <input type="checkbox" name="lang3" value="php"> Php
+
+        <input type="password"  >
+
+        <input type="color" name="productColor">
+        <input type="range" name="range"  min="100" max="200" step="50" value="125" >
+
+        <br>
+        <!-- <label>Course</label> -->
+        <!-- <select name="course" required >
+            <option disabled selected>Choose Course</option>
+            <option value="HyperTextMarkupLanguage">HTml</option>
+            <option>Css</option>
+            <option>Js</option>
+        </select> -->
+        <select name="course" multiple required>
+            <option disabled value="null" selected>Choose Course</option>
+            <option value="HyperTextMarkupLanguage">HTml</option>
+            <option>Css</option>
+            <option>Js</option>
+            <option>Js</option>
+            <option>Js</option>
+        </select>
+        <br>
+
+        <input type="file" multiple>
+
+        <br>
+        <textarea rows="5" cols="100" name="description"
+         placeholder="enter descriptionn"></textarea>
+        <br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+        <button type="button">Next</button>
+    </form>
+
+    <button>register</button>
+
+    <h1>&&> &copy;</h1>
+    
+</body>
+</html>
+
+<!-- nouran@hotmail.com -->

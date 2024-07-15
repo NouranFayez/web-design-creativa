@@ -1,0 +1,73 @@
+
+/* Reset style */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.padding{
+    padding: 10% 0%;
+}
+
+.card-style{
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.text-white{
+    color: white;
+}
+
+
+/* Custom Style */
+
+.bg-light{
+    background-color: lightgray;
+}
+
+#services-section .card{
+    background-color: aqua;
+  
+}
+
+#about-section .card{
+    background-color: black;
+    color: white;
+    padding: 2%;
+  
+}
+
+.bg-img{
+    background-image: url(../images/images.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 400px; */
+    background-position-x: center;
+    background-color: aquamarine;
+    color: white;
+}
+
+.overlay{
+    background-color: #0000006e;
+    height: 100%;
+}
+
+h2{
+    /* text-decoration: underline; */
+    color: white;
+    border-bottom: 2px solid;
+    padding-bottom: 4%;
+    margin-bottom: 6%;
+}

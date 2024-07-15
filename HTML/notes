@@ -1,0 +1,5 @@
+-- Block Element ==> h1:h6 , p
+
+-- inline Element ==> span , a , image
+
+-- a attributes ==> href , target (_self , _blank , parent)

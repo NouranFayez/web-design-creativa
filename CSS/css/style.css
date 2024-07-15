@@ -1,0 +1,120 @@
+/* 
+CSS Selector {
+    css property : Css value
+}
+*/
+
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Global Style */
+.text-white{
+    color: white;
+}
+/* Custom style */
+
+
+body{
+    /* background-color: bisque; */
+}
+
+h3 {
+    color: green;
+}
+
+.card {
+    background-color: aqua;
+}
+
+#navigation {
+    background-color: chartreuse;
+}
+
+h4 {
+    font-size: 33px;
+    color: red;
+}
+
+.text-green {
+    color: green !important;
+}
+
+#text-blue {
+    color: blue;
+}
+
+main {
+    background-color: lightgray;
+    color: red;
+    font-size: 24px;
+    width: 30%;
+    /*padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding: 2% 10% 3% 5%;
+    padding: 3% 4% 10%;
+    padding: 5% 10%; */
+    padding: 5%;
+    /* margin: 6%; */
+    /* margin-left , margin-right ==> auto with block Elements  */
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    border-top-style: solid;
+    border-top-width: 11px;
+    border-bottom-color: blue;
+    border-bottom-style: solid;
+    border-bottom-width: 11px;
+    border-left-color: blue;
+    border-left-style: solid;
+    border-left-width: 11px;
+    border-right-color: blue;
+    border-right-style: solid;
+    border-right-width: 11px;
+    border-top-color: blue;
+
+    border-top: 2px solid blue;
+    border: 3px solid yellow;
+
+}
+main a{
+    background: black;
+    color: white;
+    padding: 6%;
+    margin: 13%;
+    display: inline-block;
+
+}
+
+.input-style{
+    background: lightgray;
+    margin: 2%;
+    color: red;
+    padding: 1%;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+#custom-input-border{
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 0;
+}
+
+h1{
+    /* left(default) , center , right */
+    text-align: center;
+}
+
+
+section .card{
+    background-color: aquamarine;
+}
+aside .card{
+    background-color: blanchedalmond;
+}
+
