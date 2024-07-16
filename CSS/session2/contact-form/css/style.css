@@ -1,0 +1,51 @@
+/* reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.fullWidth{
+    width: 100%;
+}
+.d-inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* custom style */
+.bg-color{
+    background-color: #11CFCF;
+}
+
+form{
+    width: 35%;
+}
+
+form input {
+    padding: 8px 5px;
+    margin-bottom: 2%;
+  
+}
+
+form .submitBtn{
+    margin-left: auto;
+    display: block;
+}
+form [type=submit]{
+    margin-left: auto;
+    display: block;
+}
+.custom-width{
+   width: 40%; 
+}
+
+.contact-details{
+    width: 30%;
+}
