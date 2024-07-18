@@ -1,0 +1,223 @@
+
+/* Reset Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Global style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.bg-light{
+    background-color: lightgray;
+}
+.bg-blue{
+    background-color: lightblue;
+}
+.bg-gold{
+    background-color: goldenrod;
+}
+section{
+    height: 700px;
+}
+/* custom style */
+nav{
+    padding: 1% 0;
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+
+.bg-dark{
+    background-color: black;
+}
+nav ul{
+    margin-top: 2px;
+    width: 41%;
+}
+nav li{
+    margin-left: 7%;
+}
+nav a{
+    color: white;
+}
+.custom-padding{
+    padding: 3% 0px;
+}
+
+
+.card{
+    width: 30%;
+    /* border: 1px solid black; */
+    /* x-shadow , y-shadow , blur , spread , color */
+    box-shadow: 0px 0px 9px 1px #bababa;
+    /* display: inline-block; */
+}
+.card h3{
+    margin-bottom: 3%;
+}
+.card-details{
+    padding: 3% 4%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+/* .card-link{
+
+} */
+.card .card-link{
+    background-color: goldenrod;
+    padding: 3%;
+    display: inline-block;
+    margin-top: 3%;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+.card .card-link:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    width: 50%;
+}
+.card p:hover{
+    color: blue;
+}
+.card:hover h3{
+    color: red;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.custom-margin{
+    margin: 0px 3%;
+}
+
+.custom-img{
+    height: 410px;
+    border-radius: 50%;
+}
+.custom-img-top-raduis{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+}
+.social-media-style{
+    color: red;
+    border: 2px solid;
+    padding: 1%;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    line-height: 1.5;
+}
+.card{
+    position: relative;
+    margin-top: 3%;
+}
+
+.card .div{
+    position: absolute;
+    background-color: goldenrod;
+    color: white;
+    padding: 1%;
+    top: 0;
+    z-index: 1;
+    padding: 3% ;
+    width: 100%;
+}
+.custom-visibility{
+    /* display: none; */
+    /* 0 : 1 */
+    /* opacity: 0.5; */
+    /* hidden - visible (default) */
+    /* visibility: hidden; */
+}
+
+.card-overlay{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #00000094;
+    display: none;
+    /* height: 100%; */
+}
+.card:hover .card-overlay{
+    display: block;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+#top-btn{
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    /* line-height: 2; */
+    padding-top: 10px;
+    /* position ==> static , fixed , relative , absolute , sticky */
+    /* left , right , top , bottom , z-index */
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute
+}
+.bg-img{
+    background-image: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg);
+    height: 500px;    
+}
+
+.overlay{
+    background-color: #00000094;
+    height: 100%;
+}
+
+/* display : block , inline , inlin-block , none , flex */
