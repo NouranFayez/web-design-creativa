@@ -1,0 +1,77 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* direction: rtl; */
+}
+ul{
+    list-style: none;
+}
+
+/* Global Style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.bg-dark{
+    background-color: black;
+}
+.bg-light{
+    background-color: #eee;
+}
+.d-flex{
+    display: flex;
+    /* justify-content ===> flex-start (default) , center , flex-end , space-between , space-around , space-evenly ; */
+    justify-content: space-around;
+    /* flex-direction ==> row (default) , row-reverse , column , column-reverse */
+    /* flex-wrap ==> nowrap (default) , wrap */
+    flex-wrap: wrap;
+    /* flex-flow==>  flex-direction flex-wrap; */
+    /* align-items ==> stretch(default) , start , center , end */
+    align-items: end;
+    /* align-content ==> flex-start , flex-end , center , space-between , space-around , space-evenly */
+    direction: ltr;
+}
+.align-self-start{
+    /* stretch , flex-start , center , flex-end  */
+    align-self: flex-start;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.float-right{
+    float: right;
+}
+
+
+/* Custom style */
+nav{
+    color: white;
+    padding: 2% 0;
+}
+nav h2{
+    font-size: 40px;
+}
+nav ul{
+    width: 30%;
+    padding-top: 2%;
+}
+.d-flex-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#services-section{
+    padding: 3% 0;
+}
+
+#services-section .card{
+    border: 1px solid red;
+    padding: 2%;
+    width: 30%;
+}
+#services-section .card-img{
+    width: 100%;
+}
