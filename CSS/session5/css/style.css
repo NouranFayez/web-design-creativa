@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.custom-input{
+    border: 0;
+    border-bottom: 2px solid blue;
+    margin-top: 2%;
+    /* outline: 2px solid goldenrod; */
+}
+
+.custom-input:focus{
+    border-color: red;
+    outline: 0;
+}
+
+input:disabled{
+    background-color: aquamarine !important;
+}
+input:read-only{
+    background-color: blue;
+}
+input:checked{
+    width: 40px;
+    height: 40px;
+}
+
+.before-after-element{
+    width: 40%;
+    border: 2px solid gray;
+    padding: 2%;
+    margin: 3% auto;
+    position: relative;
+    height: 189px;
+    overflow: auto;
+}
+
+.before-after-element::before{
+    content: "web design";
+    background: lightgray;
+    border-right: 2px solid;
+    font-size: 25px;
+    padding: 5%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+.before-after-element::after{
+    content: "" ;
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    position: absolute;
+    top: 100%;
+}
+ul{
+    list-style: none;
+}
+.before-after-li::before{
+    content: "\f007";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+}
+.text-overflow{
+    width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-overflow:hover{
+    white-space: normal;
+}
+
+.parent , .custom-div{
+    width: 30%;
+    margin: 2% auto;
+    border: 2px solid;
+}
+.parent h3{
+    color: red;
+}
+.parent > h3{
+    color: green;
+}
+.parent + h2{
+    color: blue;
+}
+.parent ~ h2{
+    color: blue;
+}
+.parent:hover + h2{
+    color: chartreuse;
+}
+
+.parent.div-style#div-id{
+    background-color: lightgray;
+}
+
+.transform{
+    width: 40%;
+    margin: 5% auto;
+    padding: 2%;
+    border: 2px solid lightblue;
+    display: inline-block;
+}
+.custom-transform{
+    background: lightgray;
+    /* width: 0;
+    overflow: hidden; */
+    /* margin-left: 0%; */
+    /* transform: translateX(56%); */
+    /* transform: translateY(-90px); */
+    /* transform: translate(20%, 50px); */
+    /* transform: rotate(-90deg); */
+
+    /* transform: scaleX(0); */
+    transform: scaleY(1.5);
+    transform: skewX(30deg);
+    transform: skewY(10deg);
+    transform: skew(10deg, 10deg);
+    /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+
+    transform: matrix(1.5 , 0 , 0.2 , 0.5 , 200 , 0) ;
+
+    /* transform: rotate(20deg); */
+    transform: scale(1.5) rotate(20deg);
+
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: changeBgColor;
+    animation-duration: 7s;
+    animation-iteration-count: 2;
+    /* normal , reverse , alternate , alternate-reverse */
+    animation-direction: alternate-reverse ;
+    /* animation-direction: alternate-reverse; */
+    /* animation-iteration-count: infinite; */
+    animation-delay: 2s ;
+    animation-timing-function: linear ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+
+}
+
+@keyframes changeBgColor  {
+    /* from{
+        background-color: burlywood;
+        border: 4px solid red;
+    }
+    to{
+        background-color: aqua;
+        width: 100%;
+    } */
+
+    0%{
+        background-color: azure;
+        
+    }
+    25%{
+        background-color: yellow;
+        transform: translateX(300px);
+    }
+    50%{
+        background-color: turquoise;
+        transform: translate(300px , 300px);
+    }
+    75%{
+        background-color: red;
+        transform: translate(0 , 300px);
+    }
+    100%{
+        background-color: chocolate;
+    }
+}
+
+.custom-parent{
+    width: 40%;
+    padding: 2px;
+    border: 2px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.position-absolute{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: 1s all;
+    /* display: none; */
+
+}
+.custom-parent:hover .position-absolute{
+    top: 0;
+    /* display: block; */
+}
