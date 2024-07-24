@@ -1,0 +1,75 @@
+
+/* @Rule type condition breakpoint */
+
+/* @rule ==> keyframes , media */
+/* types ==> screen , speech , print */
+/* condition => (max-width) , (min-width) , range */
+/* breakpoint ==> screen size */
+
+
+/* 0 ==> 767.98 */
+@media (max-width: 767.98px) { 
+    .left-aside{
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .right-aside{
+        width: 100%;
+    }
+    .d-flex{
+        flex-wrap: wrap;
+    }
+  }
+/* 0 ==> 575.98 */
+@media (max-width: 575.98px) { 
+    .left-aside{
+        background-color: lightpink;
+    }
+    /* .left-aside{
+        width: 100%;
+    }
+    .right-aside{
+        width: 100%;
+    }
+    .d-flex{
+        flex-wrap: wrap;
+    } */
+    .w-47{
+        width: 100%;
+    }
+    .custom-margin-top-sm{
+        margin-top: 3%;
+    }
+ }
+
+ @media (max-width:400px){
+    .left-aside{
+        background-color: cornflowerblue;
+    }
+ }
+
+/* 900 ==> up to */
+@media (min-width:850px){
+   .left-aside{
+       background-color: black;
+   }
+}
+ @media (min-width:900px){
+    .left-aside{
+        background-color: goldenrod;
+    }
+    
+ }
+
+ @media  (min-width:500px) and (max-width:830px)  {
+    .left-aside{
+        border: 3px solid black;
+    }
+ }
+
+ @media print{
+    #section-content{
+        display: none;
+    }
+ }
+
