@@ -1,0 +1,31 @@
+-- variables ==> primitive variables
+                 non-primitive variables (complex data type)
+
+-- primitive variables ==> string , number , boolean , null , undefined , NaN ==> Not a Number
+
+-- var , let , const 
+
+-- var variableName = variableValue
+
+-- Mathematical Operators ==> + , - ,  / , * , % , ++ , --
+-- Assignment Operators ==> += , -= , *= , /=
+-- unary Operator ==> typeof
+-- Comparison Operator ==> > , < >= <= == === != !==
+-- Logical Operators ==> && || !
+-- ternary Operators ==> (condition) ? true : false
+
+
+-- falsy value ==> 0 , -0 , NaN , undefined , null , false , ""
+
+
+-- if condition 
+
+-- switch Case
+
+-- looping ==> for , while , foreach , , for of 
+
+
+
+
+
+
