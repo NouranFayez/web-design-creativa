@@ -1,0 +1,38 @@
+
+
+Array Methods ==> push()
+                  unshift()
+                  pop()
+                  shift()
+                  includes()
+                  foreash()
+                  find()
+                  findeIndex()
+                  sort()
+                  reverse()
+                  toString()
+                  join()
+                  map()
+
+-- object ={
+
+}  
+
+
+
+prompt('number of users') // number
+
+
+addUser()
+
+user = {
+    name : prompt('User Name'),
+    balance : '' ,
+    id: '' /// unique
+}
+
+editUserBalanceById() // id , newBalance
+
+deleteUserById() // id
+
+
