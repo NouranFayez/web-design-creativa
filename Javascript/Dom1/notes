@@ -1,0 +1,7 @@
+-- DOM ==> document object model
+
+-- document ==> getElementById() // return item
+                getElementsByTagName() // return HTMLCOLLECTION
+                getElementsByClassName() // return HTMLCOLLECTION
+                querySelector() // return item
+                querySelectorAll() // return NodeList
